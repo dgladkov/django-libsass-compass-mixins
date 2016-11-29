@@ -49,7 +49,7 @@ then optionally upload the build to PyPI:
 
 ::
 
-    $ make upload
+    $ make dist_upload
 
 License
 -------
