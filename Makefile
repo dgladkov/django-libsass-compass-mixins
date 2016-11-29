@@ -1,5 +1,5 @@
 .PHONY = all
-all: clean npm_install create_project dist 
+all: clean npm_install create_project 
 
 npm_install:
 	npm install compass-mixins@latest --loglevel=error
@@ -15,5 +15,5 @@ create_project:
 dist:
 	python setup.py sdist bdist_wheel
 
-upload:
-	python setup.py upload
+dist_upload:
+	python setup.py sdist bdist_wheel upload
