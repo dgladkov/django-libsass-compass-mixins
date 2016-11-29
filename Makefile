@@ -1,11 +1,11 @@
 .PHONY = all
-all: npm_install clean create_project dist 
+all: clean npm_install create_project dist 
 
 npm_install:
 	npm install compass-mixins@latest --loglevel=error
 
 clean:
-	rm -rf ./*.egg-info ./build ./clean ./dist ./django_libsass_compass_mixins 
+	rm -rf `cat .gitignore`
 
 create_project:
 	mkdir ./django_libsass_compass_mixins
