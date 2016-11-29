@@ -54,6 +54,6 @@ then optionally upload the build to PyPI:
 License
 -------
 
-Copyright (c) 2008-2009 Christopher M. Eppstein All Rights Reserved
-Released under a `slightly modified MIT
-License <https://github.com/Compass/compass/blob/stable/LICENSE.markdown>`__.
+| Copyright (c) 2008-2009 Christopher M. Eppstein
+| All Rights Reserved
+| Released under a `slightly modified MIT License <https://github.com/Compass/compass/blob/stable/LICENSE.markdown>`__.
