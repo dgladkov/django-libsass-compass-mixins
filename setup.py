@@ -9,7 +9,7 @@ _version_re = re.compile(r'__version__\s+=\s+(.*)')
 with io.open('django_libsass_compass_mixins/__init__.py', encoding='utf-8') as f:
     version = str(ast.literal_eval(_version_re.search(f.read()).group(1)))
 
-with io.open('README.md', encoding='utf-8') as f:
+with io.open('README.rst', encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
