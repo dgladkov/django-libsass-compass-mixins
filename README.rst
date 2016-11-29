@@ -24,6 +24,15 @@ and add django\_libsass\_compass\_mixins to your INSTALLED\_APPS setting
     ...
     ]
 
+Now you can use Compass mixins in your SCSS files
+
+.. code:: scss
+
+    ...
+    @import "compass/reset";
+    @import "compass/css3/box-shadow";
+    ...
+
 Building
 --------
 
